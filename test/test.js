@@ -24,7 +24,7 @@ var it = global.it;
 var after = global.after;
 var before = global.before;
 
-var s3Bucket = process.env.S3_BUCKET;
+var s3Bucket = 'site11';
 
 function createClient() {
   return s3.createClient({
